@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 3272251960339208114}
   - component: {fileID: 3272251960339208113}
   - component: {fileID: -6650127389296724528}
+  - component: {fileID: 1775314920141913430}
+  - component: {fileID: 8471868246753220539}
   m_Layer: 0
   m_Name: BulletMonster2
   m_TagString: Untagged
@@ -116,7 +118,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -129,9 +131,34 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3272251960339208110}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b5c8de582c7a104dbc9c9bd5fb8dec5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 0, y: -10}
+--- !u!114 &1775314920141913430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3272251960339208110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d19e7e67e92c0e04a9ae0a7274e3b832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+--- !u!114 &8471868246753220539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3272251960339208110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f7ca2734ccf1ad4698401bab8153938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -6,7 +6,7 @@ public class SpawnBulletController : MonoBehaviour
 {
 
     public GameObject bullet;
-    public float interval = 1f;
+    public float interval = .5f;
     // Start is called before the first frame update
     void Start()
     {
